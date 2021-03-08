@@ -18,8 +18,7 @@
           margin:0;
           padding:20px;
         }
-        ol, ul{
-          
+        #grid ol, ul{
           width:110px;
           margin:0;
           padding-left:30px;
@@ -36,8 +35,16 @@
           border-left:1px solid gray ;  
           padding-left:40px;
         }
-
-        
+        @media(max-width:800px){
+          #grid{
+            display: block;
+          }
+          #article{
+            border-left:none;
+          }
+          h1 { 
+            border-bottom:none;
+          }
     </style>
 </head>
 <body>
@@ -56,7 +63,7 @@
         <li>6. 반트럼프</li>
         </ul>
       </div>
-    <div id="article">
+      <div id="article">
       <div>
       <h3>휴거 전주곡</h3>
       <p>
