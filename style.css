@@ -1,12 +1,9 @@
-
-* {
-  font-family : 'Noto Sans HK', sans-serif;
-  font-family : 'Noto Sans KR', sans-serif;
-  list-style: none;
-  text-decoration: none;
-  border-collapse: collapse;
-  color:rgb(71, 71, 71);
-  background-color: rgb(249, 248, 240);
+  * {
+    /*list-style: none;*/
+    text-decoration: none;
+    border-collapse: collapse;
+    color:rgb(71, 71, 71);
+    background-color: rgb(249, 248, 240);
   }
   h1 {
     font-size: 40px;
@@ -16,9 +13,9 @@
     padding:20px;
   }
   #grid ol, ul{
-    width:110px;
+    width:120px;
     margin:0;
-    padding-left:30px;
+    padding-left:20px;
   }
   p {
     margin-top:20px"  
